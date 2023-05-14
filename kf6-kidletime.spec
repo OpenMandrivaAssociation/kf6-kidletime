@@ -28,6 +28,7 @@ BuildRequires: cmake(Qt6)
 BuildRequires: cmake(Qt6QuickTest)
 BuildRequires: cmake(Qt6WaylandClient)
 BuildRequires: pkgconfig(wayland-client)
+BuildRequires: pkgconfig(xscrnsaver)
 Requires: %{libname} = %{EVRD}
 
 %description

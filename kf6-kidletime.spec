@@ -1,6 +1,6 @@
 %define libname %mklibname KF6IdleTime
 %define devname %mklibname KF6IdleTime -d
-%define git 20230811
+%define git 20230818
 
 Name: kf6-kidletime
 Version: 5.240.0

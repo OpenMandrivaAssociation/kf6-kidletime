@@ -1,6 +1,6 @@
 %define libname %mklibname KF6IdleTime
 %define devname %mklibname KF6IdleTime -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-kidletime
 Version: 5.240.0
@@ -96,7 +96,6 @@ X11 windowing system support for KIdleTime
 %files -n %{devname}
 %{_includedir}/KF6/KIdleTime
 %{_libdir}/cmake/KF6IdleTime
-%{_qtdir}/mkspecs/modules/qt_KIdleTime.pri
 %{_qtdir}/doc/KF6IdleTime.*
 
 %files -n %{libname}

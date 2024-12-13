@@ -6,8 +6,8 @@
 #define git 20240217
 
 Name: kf6-kidletime
-Version: 6.8.0
-Release: %{?git:0.%{git}.}2
+Version: 6.9.0
+Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kidletime/-/archive/master/kidletime-master.tar.bz2#/kidletime-%{git}.tar.bz2
 %else
